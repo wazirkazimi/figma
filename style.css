@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 20px;
+    align-items: center;  
+}
+.logo img{
+    width: 20px;
+}
+.logo ul {
+    display: flex;
+    gap: 15px;
+    margin-left: 50px;
+    margin-top: -27px; 
+    align-items: center;  
+    text-align: center; 
+}
+.logo  li{
+    text-align: center; 
+    list-style: none;
+
+}
+.login{
+    display: flex;
+    right: 0;
+    position: absolute;
+    margin-right: 30px;
+    gap: 20px;
+}
+    
+.login img{
+  width: 40px;
+  border-radius: 20px;
+  
+}
+.btn-in{
+    width: 60px;
+  /* padding: 19px; */
+  border-radius: 5px;
+  background-color: transparent;
+  /* margin-top: 30px; */
+}
+.hero-text{
+    margin-top: 15%;
+    margin-left: 40px;
+    line-height: 35px;
+    display: flex;
+}
+.hero-text img{
+    width: 512px;
+    right: 20px;
+    position: absolute;
+    top: 70px;
+}
+.hero-text h1, .page2 h1{
+    font-size: 300%;
+    max-width: 500px;
+    line-height: 50px;
+}
+.hero-text p,.page2 p{
+    font-size: 100%;
+    max-width: 280px;
+}
+.page2 p{
+    font-size: 100%;
+    max-width: 490px;
+}
+.btn-log{
+    background-color: black;
+    color: white;
+    padding: 9px;
+    font-size: large;
+    box-shadow: none;
+    border: none;
+    border-radius: 8px;
+}
+.page2{
+    margin-top: 12%;
+    margin-left: 50px;
+    line-height: 30px;
+}
+.div{
+    background-color: #F5F5F5;
+    
+}
+.pic-grid{
+  margin-top: 80px;
+  display: flex;
+  gap: 20px;
+
+}
+.box1 img{
+    width: 342px;
+    margin-bottom: 20px;
+}
+.img img{
+    width: 512px;
+}
+.page3{
+    display: flex;
+}
+.text{
+    margin-top: 10%;
+    line-height: 40px;
+    right: 50px;
+}
+.text h2{
+    font-size: 40px;
+}
